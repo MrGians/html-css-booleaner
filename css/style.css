@@ -18,6 +18,7 @@ main, footer {margin: 0 10px;}
 .block {
     display: inline-block;
     line-height: 10px;
+    margin-left: 150px;
 }
 
 .spaced {padding: 60px 0 0 20px;}
@@ -45,6 +46,12 @@ th {
     text-align: left;
     color: white;
 }
+
+table {
+    border-spacing: 0;
+    margin-top: 40px;
+}
+
 .td-25 {width: 25%;}
 .td-50 {width: 50%;}
 
@@ -71,3 +78,7 @@ h3 {color: grey;}
     background: url('../img/graph.jpg') no-repeat center;
     background-size: cover;
 }
+
+
+/* CSS BONUS */
+.container {margin: 0 150px;}
