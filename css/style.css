@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    height: 2000px;
+}
+
+header{
+    height: 120px;
+    background: rgb(25, 117, 209) url('../img/pattern.png') scroll;
+    color: white;
+    padding-left: 10px;
+}
+
+/*Formattazione e posizionamento "The Booleaner" Header*/
+.block {
+    display: inline-block;
+    line-height: 10px;
+}
+
+.spaced {padding: 60px 0 0 20px;}
+.big {font-size: 35px;}
+
+/**/
+
