@@ -11,7 +11,7 @@ header {
     padding-left: 10px;
 }
 
-main {margin: 0 10px;}
+main, footer {margin: 0 10px;}
 
 
 /*Formattazione e posizionamento "The Booleaner" Header section*/
@@ -53,3 +53,21 @@ th {
 
 
 /*Formattazione Footer Section*/
+h3 {color: grey;}
+
+.tip {
+    height: 150px;
+    width: 200px;
+    color: white;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+}
+
+.first-bg {
+    background: url('../img/monitor.jpg') no-repeat center;
+    background-size: cover;
+}
+.second-bg {
+    background: url('../img/graph.jpg') no-repeat center;
+    background-size: cover;
+}
