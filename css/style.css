@@ -1,16 +1,20 @@
-body{
+body, a, figure {
+    font-family: 'Lora', serif;
     margin: 0;
-    height: 2000px;
+    text-decoration: none;
 }
 
-header{
+header {
     height: 120px;
     background: rgb(25, 117, 209) url('../img/pattern.png') scroll;
     color: white;
     padding-left: 10px;
 }
 
-/*Formattazione e posizionamento "The Booleaner" Header*/
+main {margin: 0 10px;}
+
+
+/*Formattazione e posizionamento "The Booleaner" Header section*/
 .block {
     display: inline-block;
     line-height: 10px;
@@ -19,5 +23,33 @@ header{
 .spaced {padding: 60px 0 0 20px;}
 .big {font-size: 35px;}
 
-/**/
 
+/*Formattazione Main Section*/
+address {
+    font-style: normal;
+    color: grey;
+}
+
+.little {font-size: 12px;}
+
+.highlighted {background-color: gold;}
+
+ul {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+/*Formattazione della tabella*/
+th {
+    text-align: left;
+    color: white;
+}
+.td-25 {width: 25%;}
+.td-50 {width: 50%;}
+
+.blue-row {background-color: rgb(0, 116, 194);}
+.lightblue-row {background-color: rgb(99, 189, 248);}
+
+
+/*Formattazione Footer Section*/
